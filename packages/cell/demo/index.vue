@@ -67,6 +67,7 @@
       <van-cell
         :title="$t('cell')"
         is-link
+required	
         to="index"
       />
     </demo-block>
