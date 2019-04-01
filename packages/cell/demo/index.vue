@@ -3,6 +3,7 @@
     <demo-block :title="$t('basicUsage')">
       <van-cell-group>
         <van-cell
+          required	= "true"
           :title="$t('cell')"
           :value="$t('content')"
         />
